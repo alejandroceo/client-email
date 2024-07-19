@@ -35,7 +35,7 @@ root = tk.Tk()
 root.title("Cliente de Email")
 
 # Cargar y colocar el logo
-logo = PhotoImage(file="/home/predator/Escritorio/email-python/logos.png")  # Asegúrate de cambiar esta ruta a la ubicación de tu logo
+logo = PhotoImage(file="/home/rutas/logos.png")  # Asegúrate de cambiar esta ruta a la ubicación de tu logo
 logo_label = tk.Label(root, image=logo)
 logo_label.grid(row=0, column=0, columnspan=2, pady=10)
 
